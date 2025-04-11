@@ -1,20 +1,30 @@
 import React from 'react';
 import PhotoAbout from './PhotoAbout';
 import Carousel from './Carousel'; 
+import GaryEtMoi from '../assets/photo/garyEtMoi.jpeg';
+import Gary from "../assets/photo/Gary.jpeg";
+import Cookie from "../assets/photo/Cookie.jpeg";
+import Fraise from "../photo/tarteFraises.jpeg";
+import Medaille from "../photo/MoiMedaille.png";
+import Trail from "../photo/trail.jpeg";
+import Fleurs from  "../photo/grosseFleur.jpeg";
+import Anthu from "../photo/fleurAnthurium.jpeg";
+import Crochet from "../photo/moiCrochet.jpeg";
+import Chouchou from "../photo/chouchou.jpeg";
 
 const Collection = () => {
 
   const full = [
-    "/src/assets/photo/garyEtMoi.jpeg",
-    "/src/assets/photo/Gary.jpeg",
-    "/src/assets/photo/Cookie.jpeg",
-    "/src/assets/photo/tarteFraises.jpeg",
-    "src/assets/photo/MoiMedaille.png",
-    "src/assets/photo/trail.jpeg",
-    "src/assets/photo/grosseFleur.jpeg",
-    "src/assets/photo/fleurAnthurium.jpeg",
-    "src/assets/photo/moiCrochet.jpeg",
-    "src/assets/photo/chouchou.jpeg"
+    {GaryEtMoi},
+    {Gary},
+   {Cookie},
+  {Fraise},
+ {Medaille},
+   {Trail},
+ {Fleurs},
+   {Anthu} ,
+{Crochet},
+{Chouchou}
     
   ];
  

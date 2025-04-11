@@ -59,7 +59,7 @@ export default function LogoCompet() {
         ["sass.svg", "SASS"]
       ].map(([src, label], index) => (
         <div className='flex gap-y-2 w-50  sm: lg:ml-6 ' key={index}>
-          <img src={`src/assets/photo/${src}`} alt={`logo ${label}`} className='logo w-20' />
+          <img src={`../photo/${src}`} alt={`logo ${label}`} className='logo w-20' />
           <h3 className='mt-6 ml-6'>{label}</h3>
         </div>
       ))}
