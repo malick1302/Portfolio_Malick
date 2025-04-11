@@ -4,13 +4,13 @@ import Carousel from './Carousel';
 import GaryEtMoi from '../assets/photo/garyEtMoi.jpeg';
 import Gary from "../assets/photo/Gary.jpeg";
 import Cookie from "../assets/photo/Cookie.jpeg";
-import Fraise from "../photo/tarteFraises.jpeg";
-import Medaille from "../photo/MoiMedaille.png";
-import Trail from "../photo/trail.jpeg";
-import Fleurs from  "../photo/grosseFleur.jpeg";
-import Anthu from "../photo/fleurAnthurium.jpeg";
-import Crochet from "../photo/moiCrochet.jpeg";
-import Chouchou from "../photo/chouchou.jpeg";
+import Fraise from "../assets/photo/tarteFraises.jpeg";
+import Medaille from "../assets/photo/MoiMedaille.png";
+import Trail from "../assets/photo/trail.jpeg";
+import Fleurs from  "../assets/photo/grosseFleur.jpeg";
+import Anthu from "../assets/photo/fleurAnthurium.jpeg";
+import Crochet from "../assets/photo/moiCrochet.jpeg";
+import Chouchou from "../assets/photo/chouchou.jpeg";
 
 const Collection = () => {
 
