@@ -1,5 +1,5 @@
 import React from 'react';
-import Collection from '../components/collection';
+import Collection from '../components/Collection';
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
 
         </div>
       </div>
-<div className=' space-y-10 w-full h-80 lg:h-100  md:pr-30 '>
+<div className='space-y-10 w-full lg:h-95 md:pr-30 '>
 <h1 className='flex justify-center mt-10 text-3xl min-lg:hidden mr-12 ml-12 '>Qui suis-je ?</h1>
 
   <p className='sm:border sm:p-6 sm:rounded-2xl lg:ml-35 md:ml-20 m-7'>

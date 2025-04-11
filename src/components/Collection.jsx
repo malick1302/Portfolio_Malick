@@ -59,11 +59,11 @@ const Collection = () => {
   // ];
 
   return (
-    <div className='md:flex-col mt-30 md:mt-100'>
+    <div className='md:flex-col mt-30 md:mt-100 w-full'>
 
-<div className='mb-8 m-7 flex flex-col grow justify-center md:flex-row md:gap-2 md:p-0 md:m-0 md:mr-12'>
+<div className='mb-8 m-7 flex flex-col justify-center md:justify-center md:gap-2 md:p-0 md:m-0 md:mr-12'>
       <Carousel carousel={full}/>
-      <p className="text-center sm:mt-4 sm:mb-4 text-lg text-white-600 md:w-150 lg:w-200 xl:w-250">
+      <p className="text-center sm:mt-4 sm:mb-4 text-lg text-white-600 md:w-150 md:text-center lg:w-200 xl:w-250">
        Je partage ma vie avec mon chat Gary de deux ans.
        A mes heures perdues, je pratique la course à pieds,
        <br></br>il m'arrive de participer des semis, 10km après 
