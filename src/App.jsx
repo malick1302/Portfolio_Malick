@@ -6,6 +6,7 @@ import Competences from './pages/Competences'
 import Project from './pages/Project'
 import Contacts from './pages/Contacts'
 import EmailForm from './components/EmailForm'
+import ThreeScene from './components/ThreeScene'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Project" element={<Project />} />
           <Route path='/Contacts' element={<Contacts />} />
           <Route path='/EmailForm' element={<EmailForm />} />
+          <Route path='/ThreeScene' element={<ThreeScene />} />
 
         </Routes>
       

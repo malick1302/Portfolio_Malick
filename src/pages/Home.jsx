@@ -4,6 +4,7 @@ import About from './About';
 import Competences from './Competences';
 import Project from './Project';
 import Contacts from './Contacts';
+import ThreeScene from '../components/ThreeScene';
 
 const Home = () => {
   return (
@@ -17,9 +18,9 @@ const Home = () => {
       </div>
    
     <div className="relative">
-      {/* <div className="absolute top-10 left-1/2 transform -translate-y-2/10 -translate-x-1/2"> */}
-        {/* <ThreeScene /> */}
-      {/* </div> */}
+      <div className="absolute left-1/2 transform -translate-y-2/10  max-md:-translate-y-7/10 -translate-x-1/2"> 
+        <ThreeScene />
+     </div>
       <div className=" space-x-100  w-screen xl:space-x-150 relative   ">
        
         <h2 className="text-3xl mt-110 pl-28 w-full md:text-5xl md:pr-12 md:justify-center md:mt-60 lg:mt-70 md:flex md:pl-0">DEVELOPPEUR WEB</h2>
