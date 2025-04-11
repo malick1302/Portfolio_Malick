@@ -15,16 +15,16 @@ import Chouchou from "../assets/photo/chouchou.jpeg";
 const Collection = () => {
 
   const full = [
-    src={GaryEtMoi},
-    src={Gary},
-   src={Cookie},
-  src={Fraise},
- src={Medaille},
-   src={Trail},
- src={Fleurs},
-   src={Anthu} ,
-src={Crochet},
-src={Chouchou}
+   <img src={GaryEtMoi} />,
+    <img src={Gary} />,
+    <img src={Cookie} />,,
+    <img src={Fraise} />,,
+    <img src={Medaille} />,,
+    <img src={Trail} />,,
+    <img src={Fleurs}/>,,
+    <img src={Anthu} />,,
+    <img src={Crochet} />,,
+    <img src={Chouchou} />,
     
   ];
  
