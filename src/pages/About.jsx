@@ -10,11 +10,11 @@ const About = () => {
             <h1 className=' flex justify-center pt-30 text-5xl max-lg:hidden lg:w-60 lg:text-6xl lg:ml-13 lg:mt-22 xl:w-70 xl:text-8xl '>Qui </h1>
 
             <img
-              src="src/assets/photo/malbag.png"
+              src={require("../assets/photo/malbag.png")}
               alt="Photo de profil"
-              className=" flex justify-center w-40 ml-32 sm:w-45 md:w-50  lg:w-60 lg:ml-5 "
+              className="flex justify-center w-40 ml-32 sm:w-45 md:w-50  lg:w-60 lg:ml-5 "
             />
-                        <h1 className='flex justify-center pt-30 text-5xl max-lg:hidden lg:ml-8 lg:mt-22 lg:text-7xl xl:w-90 xl:text-8xl '>suis-je ? </h1>
+                <h1 className='flex justify-center pt-30 text-5xl max-lg:hidden lg:ml-8 lg:mt-22 lg:text-7xl xl:w-90 xl:text-8xl '>suis-je ? </h1>
 
             </div>
 
