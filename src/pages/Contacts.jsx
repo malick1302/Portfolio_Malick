@@ -17,7 +17,7 @@ const Contacts = () => {
       </div>
       <div className="flex md:flex-col mt-15 lg:ml-200">
 
-        <LogoContact />
+        {/* <LogoContact /> */}
       </div>
 
       <div className=' lg:ml-40 lg:mr-40'>

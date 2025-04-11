@@ -1,6 +1,15 @@
-
-
 import React, { useState } from 'react';
+
+
+import TwitVideo from "../assets/photo/twittervideo.mp4";
+import Todo from '../assets/photo/todo.png';
+import Spot14 from '../assets/photo/SPOTIFY14px.png';
+import SpotiTel from '../assets/photo/spotifytel.png';
+import SpotiPc from '../assets/photo/spotifypc.png';
+import IpadSpot from '../assets/photo/ipadspotify.png';
+import TelTodo from '../assets/photo/teltodo.png';
+
+
 
 const Projects = () => {
   const [isTwitterVisible, setIsTwitterVisible] = useState(false);
@@ -43,7 +52,7 @@ const Projects = () => {
   loop 
   playbackRate={2} 
 >
- <source src="src/assets/photo/twittervideo.mp4" type="video/mp4"/> 
+ <source src={TwitVideo} type="video/mp4"/> 
       </video>
 
             </div>
@@ -68,12 +77,12 @@ const Projects = () => {
   Les technologies utilisées sont : REACT, Docker, une API Spotify. 
 </p>
 <h3>Version Mobile</h3>
-<img className='mt-4 w-70' src='/src/assets/photo/SPOTIFY14px.png'/>
-<img className='mt-4 w-70' src='/src/assets/photo/spotifytel.png'/>
+<img className='mt-4 w-70' src={Spot14}/>
+<img className='mt-4 w-70' src={SpotiTel}/>
 <h3>Version Ordinateur</h3>
-<img className='mt-4' src='/src/assets/photo/spotifypc.png'/>
+<img className='mt-4' src={SpotiPc}/>
 <h3>Version Ipad</h3>
-<img className='mt-4' src='/src/assets/photo/ipadspotify.png'/>
+<img className='mt-4' src={IpadSpot}/>
 
             </div>
           )}
@@ -96,9 +105,9 @@ const Projects = () => {
 
   Les technos : JAVASCRIPT HTML, CSS
 </p>
-<img src='/src/assets/photo/todo.png' />
+<img src={Todo} />
 <h4 className='mt-4'>Version Téléphone</h4>
-<img className='mt-4 w-70' src='/src/assets/photo/teltodo.png'/>
+<img className='mt-4 w-70' src={TelTodo}/>
 
             </div>
           )}
