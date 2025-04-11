@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from "../assets/photo/cv.pdf";
+import CV from "../assets/photo/mbcv.pdf";
 
 const DownloadCV = () => {
   return (

@@ -13,11 +13,10 @@ const Contacts = () => {
         <DownloadCV />
       </div>
       <div>
-      <h1 className='text-4xl md:text-7xl mb-3 ml-7 mt-70 max-md:mt30'>CONTACTS</h1> 
+      <h1 className='text-4xl md:text-7xl mb-3 ml-7 mt-70 max-md:mt30'>CONTACT</h1> 
       </div>
       <div className="flex md:flex-col mt-15 lg:ml-200">
 
-        {/* <LogoContact /> */}
       </div>
 
       <div className=' lg:ml-40 lg:mr-40 max-md:mb-30'>

@@ -38,6 +38,7 @@ box-sizing: border-box;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: 0;
   
 }
 
@@ -51,6 +52,7 @@ box-sizing: border-box;
 }
 
 main {
+  scrollbar-width: 0;
   filter: contrast(1000%) brightness(100%);
   position: static;
   background: 
