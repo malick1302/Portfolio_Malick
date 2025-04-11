@@ -9,18 +9,18 @@ const Contacts = () => {
   return (
     <div id="Contacts">
         
-      <div className="lg:ml-40 lg:mr-40 mt-90">
+      <div className="lg:ml-40 lg:mr-40 mt-90 max-md:mt-40">
         <DownloadCV />
       </div>
       <div>
-      <h1 className='text-4xl md:text-7xl mb-3 ml-7 mt-70'>CONTACTS</h1> 
+      <h1 className='text-4xl md:text-7xl mb-3 ml-7 mt-70 max-md:mt30'>CONTACTS</h1> 
       </div>
       <div className="flex md:flex-col mt-15 lg:ml-200">
 
         {/* <LogoContact /> */}
       </div>
 
-      <div className=' lg:ml-40 lg:mr-40'>
+      <div className=' lg:ml-40 lg:mr-40 mb-30'>
 
         <EmailForm />
       </div>
