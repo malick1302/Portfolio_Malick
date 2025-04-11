@@ -69,17 +69,17 @@ const Collection = () => {
   // ];
 
   return (
-    <div className='md:flex-col mt-30 md:mt-100 w-full'>
+    <div className='md:flex-col mt-30 md:mt-50 w-full'>
 
 <div className='mb-8 m-7 flex flex-col justify-center md:justify-center md:gap-2 md:p-0 md:m-0 md:mr-12'>
       <Carousel carousel={full}/>
-      <p className="text-center sm:mt-4 sm:mb-4 text-lg text-white-600 md:w-150 md:text-center lg:w-200 xl:w-250">
-       Je partage ma vie avec mon chat Gary de deux ans.
+      <p className="text-center sm:mt-4 sm:mb-4 text-lg text-white-600 md:w-150 md:text-center lg:w-200 xl:w-250 mt-6">
+       Je suis en colloc avec mon chat Gary de deux ans.
        A mes heures perdues, je pratique la course à pieds,
-       <br></br>il m'arrive de participer des semis, 10km après 
-       quelques paris avec mes amis..(l'objection prochain, c'est le marathon de Paris ..!).
+       <br></br>il m'arrive de participer des semis-marathons, 10km après 
+       quelques paris avec mes amis..(l'objectif prochain, c'est le Marathon de Paris ..!).
        Je suis un grand passioné de cuisine, si vous me prenez en alternance, promis, je vous ferais des cookies !
-       J'adore les plantes et les fleurs, plus d'une vingtaine à la maison (quand elles ne sont pas renversé par mon chat..).
+       J'adore les plantes et les fleurs.
        Depuis 6 ans, je fais du crochet et du tricot, un peu comme le code, partir d'une idée 
        et créer étape par étape sa création, c'est ce que j'aime le plus.
       </p>
