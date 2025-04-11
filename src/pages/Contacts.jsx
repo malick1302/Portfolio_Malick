@@ -20,7 +20,7 @@ const Contacts = () => {
         {/* <LogoContact /> */}
       </div>
 
-      <div className=' lg:ml-40 lg:mr-40 mb-30'>
+      <div className=' lg:ml-40 lg:mr-40 max-md:mb-30'>
 
         <EmailForm />
       </div>
