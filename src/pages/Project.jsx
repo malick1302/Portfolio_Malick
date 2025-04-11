@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 
 import TwitVideo from "../assets/photo/twittervideo.mp4";
 import Todo from '../assets/photo/todo.png';
-import Spot14 from '../assets/photo/SPOTIFY14px.png';
 import SpotiTel from '../assets/photo/spotifytel.png';
 import SpotiPc from '../assets/photo/spotifypc.png';
 import IpadSpot from '../assets/photo/ipadspotify.png';
@@ -77,7 +76,6 @@ const Projects = () => {
   Les technologies utilisées sont : REACT, Docker, une API Spotify. 
 </p>
 <h3>Version Mobile</h3>
-<img className='mt-4 w-70' src={Spot14}/>
 <img className='mt-4 w-70' src={SpotiTel}/>
 <h3>Version Ordinateur</h3>
 <img className='mt-4' src={SpotiPc}/>
