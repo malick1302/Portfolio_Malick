@@ -13,9 +13,9 @@ export default function Carousel({ carousel }) {
   }, [carousel.length]);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full flex justify-center">
       <div className="overflow-hidden">
-        <div className="flex" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
+        <div className="flex grow" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
           {carousel.map((img, index) => (
             <div key={index} className="w-full flex-shrink-0">
               <PhotoAbout img={img} />

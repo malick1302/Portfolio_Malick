@@ -73,15 +73,15 @@ const Collection = () => {
 
 <div className='mb-8 m-7 flex flex-col justify-center md:justify-center md:gap-2 md:p-0 md:m-0 md:mr-12'>
       <Carousel carousel={full}/>
-      <p className="text-center sm:mt-4 sm:mb-4 text-lg text-white-600 md:w-150 md:text-center lg:w-200 xl:w-250 mt-6">
-       Je suis en colloc avec mon chat Gary de deux ans.
-       A mes heures perdues, je pratique la course à pieds,
-       <br></br>il m'arrive de participer des semis-marathons, 10km après 
-       quelques paris avec mes amis..(l'objectif prochain, c'est le Marathon de Paris ..!).
-       Je suis un grand passioné de cuisine, si vous me prenez en alternance, promis, je vous ferais des cookies !
-       J'adore les plantes et les fleurs.
-       Depuis 6 ans, je fais du crochet et du tricot, un peu comme le code, partir d'une idée 
-       et créer étape par étape sa création, c'est ce que j'aime le plus.
+      <p className="text-center  sm:mt-4 sm:mb-4 text-lg text-white-600 md:text-center md:ml-12  mt-6">
+  En dehors du développement, je partage mon quotidien avec Gary, mon chat de deux ans.  
+  Je pratique régulièrement la course à pied et participe à des épreuves comme des
+   10 km ou des semi-marathons — prochain objectif : le Marathon de Paris 2026.
+
+  Passionné de cuisine, j’aime passer du temps derrière les fourneaux pour créer et partager.  
+  Je m’intéresse également à l’univers des plantes et des fleurs, un équilibre apaisant au quotidien.
+  Depuis six ans, je pratique le crochet et le tricot : deux disciplines qui, à l’image du code, demandent patience, rigueur et créativité — partir d’une idée et construire pas à pas un projet concret.
+
       </p>
       </div>
       

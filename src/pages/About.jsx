@@ -21,49 +21,26 @@ const About = () => {
 
         </div>
       </div>
-<div className='space-y-10 w-full lg:h-95 md:pr-30 '>
+<div className='space-y-10 w-full lg:h-95  '>
 <h1 className='flex justify-center mt-6 text-3xl min-lg:hidden mr-12 ml-12 '>Qui suis-je ?</h1>
 
   <p className='sm:border sm:p-6 sm:rounded-2xl lg:ml-35 md:ml-20 m-7'>
-    Je suis Malick, j'ai 28 ans, originaire de la Bretagne, je vis à Paris depuis maintenant 8 ans.
-  Après un BTS Commerce International, une Licence dans le Marketing 
-  et Management du Luxe et de la Mode, j'ai travaillé 6 ans dans le monde 
-  du retail, jusqu'à occuper le poste de Store Manager pendant un peu plus de deux ans.
-  En 2024, j'ai pris la grande décision de changer de vie professionnelle.
-  J'ai intégré la Web@académie By EPITECH  en novembre 2024 pour devenir Developpeur Web.
+  Hello, moi c’est Malick,
+28 ans, Breton de naissance, Parisien d’adoption depuis 8 ans.
+Mon parcours ? Un début dans le commerce international, 
+une spécialisation dans le marketing du luxe et de la mode, 
+puis 6 années dans l’univers du retail, dont 2 en tant que Store Manager.
+
+En 2024, j’ai décidé de prendre un virage à 180°. Besoin de renouveau, 
+envie de construire, de créer autrement. J’ai donc intégré la Web@cadémie by EPITECH pour 
+me former au développement web, un domaine qui m’anime et me challenge chaque jour un peu plus.
+
+Aujourd’hui, je construis des projets tech avec la même exigence que j’avais dans le retail 
+: sens du détail et efficacité.
   </p>
   <Collection />
-  {/* <p>Je m'appelle Malick Baguiri, j'ai 28 ans, j'habite à Paris depuis 8 ans 
-    et j'ai plusieurs passions dans la vie.
-    Tout d'abord mon chat Gary, qui partage ma vie depuis 2 ans.
-     J'aime beaucoup cuisiner (si vous me recrutez, 
-    je vous promets de délicieux cookies et gâteaux).
-     Il m'arrive aussi de courir, car sous un coup de tête avec
-    des amis, on se dit que ça pourrait être sympa de 
-    s'inscrire a un 10km, semi-marathon ou un trail de 19km..
-    A chaque fin de course, on se dit "plus jamais"...jusqu'au prochain pari.
-    Je suis passionné par les plantes. Je fais aussi beaucoup de tricot et crochet. 
-    </p>
 
-    <p>après avoir fais des études en commerce international et 
-    une licence en Marketing et Management du Luxe et de la Mode, 
-    je me suis lancé dans le retail. J'ai intégré la marque Camper 
-    en tant que vendeur,
-    avec de la determination, j'ai eu l'opporunité d'évoluer
-     et d'acquérir le poste 
-    d'Asistant Manager, qui, quelques moi après s'es transformé en Responsable 
-    de boutique.</p>
 
-    <p>5 ans et demis après avoir intégré Camper, je me suis dit 
-      qu'il était temps pour moi de 
-      découvrir autre chose, de nature curieuse, je me suis orienté 
-      vers le développement web.
-      qui est celon moi, un domaine stimulant, car au vu de ses diversités
-       de languages, des métiers,
-      et de son evolution, il est impossible de tout maitriser. Et
-     être en perpetuel apprentissage, et pour quelqu'un comme moi,
-     c'est très important.
-    </p> */}
 </div>
 </div>
   )

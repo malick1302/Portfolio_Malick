@@ -41,10 +41,12 @@ const Projects = () => {
           </h2>
           {isTwitterVisible && (
             <div>
-                 <p>Twitter est un projet effectué en 4 semaines avec une team de 4. 
-                  L'objectif était de tenter de reproduire le célèbre réseau social 
-                  "X". 
-                  Les technologies utilisées : PHP, Javascript, Tailwind, Skeleton.
+                 <p>Twitter (Projet d’équipe)
+Pendant 4 semaines, nous avons travaillé à 4 développeurs
+ pour reproduire une version fonctionnelle du réseau social "X". 
+ Ce projet nous a permis de mettre en pratique la gestion d’équipe, 
+ la répartition des tâches et le développement full stack.
+Technos : PHP, JavaScript, Tailwind CSS, Skeleton.
                  </p>
                  <video 
   controls 
@@ -68,12 +70,14 @@ const Projects = () => {
           </h2>
           {isSpotifyVisible && (
             <div>
-              <p>SpotSpot eest projet d'une durée de  une semaine en team de 2.
-  Le principe était de savoir travailler avec une API et Docker.
-  Il fallait faire une inscription, une connexion, une page qui affiche
-  les artistes, les albums, les genres musicaux. Il fallait pouvoir écouter 
-  les sons de chaque artistes, faire un ebarre de recherche.
-  Les technologies utilisées sont : REACT, Docker, une API Spotify. 
+              <p>SpotSpot,
+Développé en duo sur une semaine, SpotSpot est une application 
+web connectée à l’API Spotify. Le projet nous a permis d’explorer
+ la consommation d’API, la gestion des composants avec React, et l’utilisation 
+ de Docker pour le déploiement local.
+Fonctionnalités : inscription, connexion, recherche d’artistes, 
+`navigation par genre, écoute de morceaux.
+Technos utilisées : React, Docker, API Spotify.
 </p>
 <h3>Version Mobile</h3>
 <img className='mt-4 w-70' src={SpotiTel}/>
@@ -94,14 +98,11 @@ const Projects = () => {
             TO DO LIST
           </h2>
           {isToDoListVisible && (
-            <div><p>TO DO LIST est un projet qui nous a été donné à l'école lors d'un devoir sur table de 3h.
-  L'objectif était de créer une barre de texxte afin de noter les taches a effectuer, de les classer dans la colonne "A faire", 
-  puis une fois terminé, que la tâche puisse se deplacer dans la colonne "Terminé", 
-  ensuite puisse être supprimée. Il fallait également créer un bouton qui 
-  nous permettait d'enregistrer les taches dans le tableau, en passant 
-  par le localhost.
-
-  Les technos : JAVASCRIPT HTML, CSS
+            <div><p>TO DO LIST: 
+              Ce projet m’a été confié lors d’un devoir sur table de 3 heures. Le défi : développer une to-do list fonctionnelle sans framework.
+L’application permet d’ajouter des tâches, de les classer dans une colonne "À faire", de les déplacer une fois terminées, de les supprimer et d’enregistrer les données localement.
+Un exercice formateur qui m’a permis de renforcer mes bases en JavaScript pur et en manipulation du DOM.
+Technologies : JavaScript, HTML, CSS.
 </p>
 <img src={Todo} />
 <h4 className='mt-4'>Version Téléphone</h4>
