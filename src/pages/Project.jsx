@@ -12,12 +12,16 @@ import TelTodo from '../assets/photo/teltodo.png';
 
 const Projects = () => {
   const [isTwitterVisible, setIsTwitterVisible] = useState(false);
+  const [isSn4k3dVisible, setIsSn4k3dVisible] = useState(false);
   const [isSpotifyVisible, setIsSpotifyVisible] = useState(false);
   const [isToDoListVisible, setIsToDoListVisible] = useState(false);
+  
 
   const toggleVisibility = (section) => {
     if (section === 'twitter') {
       setIsTwitterVisible(!isTwitterVisible);
+    } else if (section === 'sn4k3d') {
+      setIsSn4k3dVisible(!isSn4k3dVisible);
     } else if (section === 'spotify') {
       setIsSpotifyVisible(!isSpotifyVisible);
     } else if (section === 'todo') {
@@ -59,6 +63,30 @@ Technos : PHP, JavaScript, Tailwind CSS, Skeleton.
             </div>
           )}
         </div>
+        <div>
+          <h2 
+            className='flex justify-end border-b mr-2 ml-2 text-5xl mt-5 mb-20 cursor-pointer'
+           
+            onClick={() => toggleVisibility('sn4k3d')}
+          >
+           SN4K3D
+          </h2>
+          {isSn4k3dVisible && (
+            <div>
+              <p>SN4K3D est un projet en Javascript. J'ai commencé à le créer pour comprendre comment
+                fonctionne un canva.
+                En deuxime plan, je suis très curieux de comprendre et d'apprendre la 3D , 
+                J'ai donc fait en sorte que mon snake et les aliments soient en 3D.
+                Le jeu peu ce jouer via l'ordinateur mais aussi sur téléphone. 
+</p>
+<p>Vous voulez y jouer ? Voici le lien :  
+<a href="https://sn4k3d.netlify.app/" className='text-white text-3xl font-bold' target="_blank"> SN4KED</a> </p>
+
+
+            </div>
+          )}
+        </div>
+
 
         <div>
           <h2 
