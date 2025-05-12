@@ -75,7 +75,7 @@ Technos : PHP, JavaScript, Tailwind CSS, Skeleton.
             <div>
               <p>SN4K3D est un projet en Javascript. J'ai commencé à le créer pour comprendre comment
                 fonctionne un canva.
-                En deuxime plan, je suis très curieux de comprendre et d'apprendre la 3D , 
+                En deuxime plan, je suis très curieux de comprendre et d'apprendre la 3D.
                 J'ai donc fait en sorte que mon snake et les aliments soient en 3D.
                 Nous pouvons jouer sur ordinateur avec les flèches, ou sur téléphone.
 </p>
