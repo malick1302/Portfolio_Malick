@@ -77,7 +77,7 @@ Technos : PHP, JavaScript, Tailwind CSS, Skeleton.
                 fonctionne un canva.
                 En deuxime plan, je suis très curieux de comprendre et d'apprendre la 3D , 
                 J'ai donc fait en sorte que mon snake et les aliments soient en 3D.
-                Le jeu peu ce jouer via l'ordinateur mais aussi sur téléphone. 
+                Nous pouvons jouer sur ordinateur avec les flèches, ou sur téléphone.
 </p>
 <p>Vous voulez y jouer ? Voici le lien :  
 <a href="https://sn4k3d.netlify.app/" className='text-white text-3xl font-bold' target="_blank"> SN4KED</a> </p>
