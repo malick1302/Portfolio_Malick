@@ -51,7 +51,7 @@ return (
         ref={(el) => (stickersRef.current[index] = el)} 
       >
         <img src={src} alt={`sticker ${label}`} className='w-20  md:mt-6 md:ml-6 mx-auto lg:w-40' />
-        <h3 className='mt-6  orbitron-uniquifier text-[20px] md:text-xs w-80 text-left lg:text-xs lg:pl-5  flex-nowrap'>{label}</h3>
+        <h3 className='mt-6  orbitron-uniquifier text-[10px] md:text-xs w-80 text-left lg:text-xs lg:pl-5  flex-nowrap'>{label}</h3>
       </div>
     ))}
   </div>
