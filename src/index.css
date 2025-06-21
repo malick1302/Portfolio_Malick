@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Orbitron:wght@400..900&display=swap');
+
 
 @import "tailwindcss";
 
@@ -16,6 +18,16 @@
   font-family: 'test';
   src: url(/Users/bricebammez/Desktop/malick/wab/PORTFOLIO1/portfolio/src/assets/font/Resolve-Light.otf) format("opentype");
 }
+
+
+.orbitron-uniquifier {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing:  auto;
+  font-weight: weight;
+  font-style: normal;
+  letter-spacing: 0.3rem;
+}
+
 
 * {
 box-sizing: border-box;
@@ -105,4 +117,20 @@ h2 {
 h3 {
 
   font-family: 'un';
+}
+
+
+.sticker {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.sticker.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.flex-nowrap {
+  white-space: nowrap; 
 }
