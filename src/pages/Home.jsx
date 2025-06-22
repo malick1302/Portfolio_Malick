@@ -23,8 +23,8 @@ const Home = () => {
      </div>
       <div className=" space-x-100  w-screen xl:space-x-150 relative   ">
        
-        <h2 className="text-xl mt-110 pl-28 w-full md:text-5xl md:pr-12 md:justify-center md:mt-60 lg:mt-70 md:flex md:pl-0 orbitron-uniquifier">DEVELOPPEUR WEB</h2>
-        <h2 className=" text-xl mt-1 pl-28 w-full md:text-3xl md:pr-12 md:justify-center md:mt-7 lg:mt-8 md:flex md:pl-0 orbitron-uniquifier">Votre futur alternant</h2>
+        <h2 className="text-l mt-110 pl-28 w-full md:text-5xl md:pr-12 md:justify-center md:mt-60 lg:mt-70 md:flex md:pl-0 orbitron-uniquifier">DEVELOPPEUR WEB</h2>
+        <h2 className=" text-l mt-1 pl-28 w-full md:text-3xl md:pr-12 md:justify-center md:mt-7 lg:mt-8 md:flex md:pl-0 orbitron-uniquifier">Votre futur alternant</h2>
         {/* <h2 className=" text-3xl mt-130 pl-[3%] w-full md:text-5xl md:pt-5 md:mt-80 ">WEB</h2> */}
 
       </div>
