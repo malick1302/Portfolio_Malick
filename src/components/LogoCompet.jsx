@@ -57,7 +57,7 @@ export default function LogoCompet() {
   }, []);
 
   return (
-    <div className='w-100 m-12 grid grid-cols-2 sm:m-17 md:grid-cols-3 gap-4 md:w-180 md:gap-6 lg:gap-12 lg:ml-30 xl:ml-17 xl:w-300' >
+    <div className='w-100 m-12 grid grid-cols-2 sm:m-17 md:grid-cols-3 gap-4 md:w-180 md:gap-6 lg:gap-12 lg:ml-30 xl:ml-17 xl:w-300 orbitron-uniquifier' >
       {[
         [html5Logo, "HTML"],
         [cssLogo, "CSS"],

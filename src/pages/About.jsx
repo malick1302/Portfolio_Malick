@@ -39,7 +39,7 @@ const About = () => {
           J’ai donc intégré la Web@cadémie by EPITECH pour me former au développement web, un domaine qui m’anime et me challenge chaque jour un peu plus.
           Aujourd’hui, je construis des projets tech avec la même exigence que j’avais dans le retail : sens du détail et efficacité.
         </p>
-        <h2  className='flex justify-end border-b mr-2 ml-2 text-5xl mt-5 mb-20 cursor-pointer mt-30 md:mt-50'> MES PASSIONS </h2>
+        <h2  className='flex justify-end border-b mr-2 ml-2 lg:text-5xl mt-5 mb-20 cursor-pointer mt-30 md:mt-50 orbitron-uniquifier'> MES PASSIONS </h2>
         <StickerAbout />
         <div data-aos="flip-up"></div>
       </div>

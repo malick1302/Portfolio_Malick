@@ -26,7 +26,7 @@ const EmailForm = () => {
 
     emailjs.send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
-        console.log('Réponse de l\'envoi:', response);  // Log la réponse d'EmailJS
+        console.log('Réponse de l\'envoi:', response); 
         setName('');
         setEmail('');
         setMessage('');
@@ -34,13 +34,12 @@ const EmailForm = () => {
         setStatusType('success');
       })
       .catch((error) => {
-        console.error('Erreur lors de l\'envoi:', error);  // Log l'erreur
+        console.error('Erreur lors de l\'envoi:', error);  
         setStatusMessage('Erreur lors de l\'envoi du mail. Veuillez réessayer.');
         setStatusType('error');
       });
   };
 
-  // Debug: Vérifie si statusMessage est bien mis à jour
   console.log('statusMessage:', statusMessage);  
 
   return (
@@ -49,7 +48,7 @@ const EmailForm = () => {
         <input
           type="text"
           placeholder="Votre Nom"
-          className="border-1 w-body h-12"
+          className="border-1 w-body h-12 orbitron-uniquifier"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -57,22 +56,21 @@ const EmailForm = () => {
           type="email"
           placeholder="Votre Email"
           value={email}
-          className="border-1 w-body h-12"
+          className="border-1 w-body h-12 orbitron-uniquifier"
           onChange={(e) => setEmail(e.target.value)}
         />
         <textarea
           cols="30"
           rows="10"
-          className="border-1 sm:h-50"
+          className="border-1 sm:h-50 orbitron-uniquifier"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
-        <button type="submit" className="border-1">Envoyer l'email</button>
+        <button type="submit" className="border-1 orbitron-uniquifier">Envoyer l'email</button>
       </form>
 
-      {/* Affichage du message de confirmation */}
       {statusMessage && (
-        <div className={`mt-4 p-4 text-center ${statusType === 'success' ? 'text-green-600' : 'text-red-600'} border rounded`}>
+        <div className={`mt-4 p-4 text-center  ${statusType === 'success' ? 'text-green-600' : 'text-red-600'} border rounded`}>
           {statusMessage}
         </div>
       )}

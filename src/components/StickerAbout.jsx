@@ -14,22 +14,22 @@ export default function StickerAbout() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('animate'); // Ajoute la classe pour l'animation
+            entry.target.classList.add('animate'); 
           } else {
-            entry.target.classList.remove('animate'); // Retire la classe pour réinitialiser l'animation
+            entry.target.classList.remove('animate'); 
           }
         });
       },
-      { threshold: 0.5 } // Déclenche l'animation quand 50% du sticker est visible
+      { threshold: 0.5 } 
     );
 
     stickersRef.current.forEach((sticker) => {
-      if (sticker) observer.observe(sticker); // Vérifie que l'élément est valide
+      if (sticker) observer.observe(sticker); 
     });
 
     return () => {
       stickersRef.current.forEach((sticker) => {
-        if (sticker) observer.unobserve(sticker); // Vérifie que l'élément est valide
+        if (sticker) observer.unobserve(sticker); 
       });
     };
   }, []);
